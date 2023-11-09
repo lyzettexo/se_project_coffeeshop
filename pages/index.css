@@ -10,9 +10,6 @@
 
 .header {
   padding: 30px 80px 40px;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -20,6 +17,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
 }
 
 .nav {
@@ -110,7 +110,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 100px 0 215px 80px;
+  padding: 100px 80px 215px;
 }
 
 .recipes__title {
@@ -130,8 +130,8 @@
 
 .recipes__videos {
   display: flex;
-  gap: 100px;
   justify-content: center;
+  gap: 40px;
 }
 
 .recipes__video-caption {
