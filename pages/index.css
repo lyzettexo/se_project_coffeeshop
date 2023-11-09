@@ -20,6 +20,7 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  position: relative;
 }
 
 .nav {
@@ -111,6 +112,7 @@
   background-position: center;
   background-size: cover;
   padding: 100px 80px 215px;
+  color: #ffffff;
 }
 
 .recipes__title {
@@ -119,13 +121,14 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 580px;
+  margin: 0 0 24px;
 }
 .recipes__subtitle {
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
   max-width: 438px;
-  margin: 24px 0 80px 80px;
+  margin-bottom: 80px;
 }
 
 .recipes__videos {
