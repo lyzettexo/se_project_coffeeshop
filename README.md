@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+The project can use a color scheme that is more attracting. Different and or more animations can make it engaging.
