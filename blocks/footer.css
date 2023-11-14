@@ -1,0 +1,52 @@
+.footer {
+  padding: 60px 80px 60px;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: white;
+}
+
+.footer_logo {
+  height: 105px;
+  width: 39px;
+  margin-bottom: 108px;
+}
+
+.footer__social-heading {
+  margin-bottom: 20px;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list-item {
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__social-link {
+  text-decoration: solid;
+  color: white;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+  transition: ease;
+}
+
+.footer__copyright {
+  margin-top: 108px;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+}
