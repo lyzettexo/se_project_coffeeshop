@@ -21,7 +21,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 438px;
-  margin-bottom: 80px;
+  margin: 0 0 80px;
 }
 
 .recipes__videos {
@@ -37,12 +37,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 270px;
-  gap: 40px;
   margin-bottom: 24px;
   border: none;
 }

@@ -10,10 +10,12 @@
 }
 
 .footer__content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__social-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   text-align: right;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
@@ -24,11 +26,17 @@
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .footer__list-item {
   list-style-type: none;
   margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 168px;
 }
 
 .footer__social-icon {
@@ -49,7 +57,7 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
+  margin: 108px 0 0;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;

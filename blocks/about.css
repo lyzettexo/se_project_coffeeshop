@@ -5,6 +5,7 @@
   position: relative;
   justify-content: space-between;
   overflow: hidden;
+  padding: 119px 80px 173px;
 }
 
 .about__title {
@@ -28,6 +29,10 @@
   justify-content: space-between;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 173px;
 }
 
 .about__circle {
