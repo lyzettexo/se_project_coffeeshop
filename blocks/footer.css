@@ -36,19 +36,19 @@
 }
 
 .footer__list-item:last-of-type {
-  margin-bottom: 168px;
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  gap: 10px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
   text-decoration: solid;
   color: white;
-  text-align: center;
+  display: flex;
 }
 
 .footer__social-link:hover {
